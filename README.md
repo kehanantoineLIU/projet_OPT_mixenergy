@@ -59,18 +59,11 @@ With the help of our two selected models, we made predictions for December 4, 20
 
 
 ## Bibliographie
-[1] https://prix-elec.com/energie/production/mix-energetique
-[2]https://www.rte-france.com/actualites/bilan-electrique-2022?fbclid=IwAR158_C84WXimQt
-YBCu8ughPvk9rUVVkV3WoMI9zvk4zJ5rKA5rN4cjYNig (Bilan Mix 2022)
-[3]https://www.lemonde.fr/les-decodeurs/article/2022/10/06/pourquoi-le-prix-de-l-electricite-d
-epend-de-celui-du-gaz-et-autres-questions-sur-les-factures-a-venir_6140985_4355771.html
-[4] https://www.sciencedirect.com/science/article/pii/S0960148117302550#sec6 (Rapport
-scientifique sur l’utilisation du Random Forest pour l’estimation de production éolienne)
-[5] https://www.rte-france.com/eco2mix/telecharger-les-indicateurs (Données
-consommations)
-[6] https://www.visualcrossing.com/weather/weather-data-services (Données
-meteorologiques)
-[7]https://www.services-rte.com/fr/visualisez-les-donnees-publiees-par-rte/production-realise
-e-par-groupe.html (Données production electrique parc Saint Nazaire)
-[8] https://www.georisques.gouv.fr/donnees/bases-de-donnees/eolien-terrestre (liste des
-parcs eoliens terrestres
+[1] https://prix-elec.com/energie/production/mix-energetique   
+[2]https://www.rte-france.com/actualites/bilan-electrique-2022?fbclid=IwAR158_C84WXimQtYBCu8ughPvk9rUVVkV3WoMI9zvk4zJ5rKA5rN4cjYNig (Bilan Mix 2022)   
+[3]https://www.lemonde.fr/les-decodeurs/article/2022/10/06/pourquoi-le-prix-de-l-electricite-depend-de-celui-du-gaz-et-autres-questions-sur-les-factures-a-venir_6140985_4355771.html   
+[4] https://www.sciencedirect.com/science/article/pii/S0960148117302550#sec6 (Rapportscientifique sur l’utilisation du Random Forest pour l’estimation de production éolienne)   
+[5] https://www.rte-france.com/eco2mix/telecharger-les-indicateurs (data consommations)   
+[6] https://www.visualcrossing.com/weather/weather-data-services (data meteorologiques)   
+[7]https://www.services-rte.com/fr/visualisez-les-donnees-publiees-par-rte/production-realisee-par-groupe.html (data production electrique parc Saint Nazaire)   
+[8] https://www.georisques.gouv.fr/donnees/bases-de-donnees/eolien-terrestre (liste of parcs eoliens terrestres)
