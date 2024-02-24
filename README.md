@@ -11,7 +11,8 @@ amount of electricity that will be generated in the Saint Nazaire area for the n
 And on the RTE official website, they predicted the energy consumption for the whole of France for the next 15 minutes. Since nuclear energy generation is fixed every day, ignoring solar energy use, when we predict 
 wind energy acquisition, we can get the hourly planned fossil fuel use
 To answer this question, we set up an empirical model based on the following equation:
-![image](https://github.com/kehanantoineLIU/projet_OPT_mixenergy/assets/125217787/bd12d46f-ea39-4044-8019-322bfa8b4696)
+![image](https://github.com/kehanantoineLIU/projet_OPT_mixenergy/assets/125217787/bd12d46f-ea39-4044-8019-322bfa8b4696)    
+
 The equation defines the demand for electricity, with 63% coming from nuclear power and 11% from hydropower, and the remainder being met by sources such as wind and gas generation. The main objective is to meet this demand efficiently, while reducing the share of fossil fuels, particularly gas, in favor of renewable energies.   
 1. The first phase of the project aims to assess wind power production for the whole of France. The initial focus is on the Saint-Nazaire offshore wind farm, with a view to generalizing the results to all onshore wind farms in France. 
 2. The second phase of the project consists in accurately predicting total electricity consumption for the whole country.
@@ -36,15 +37,19 @@ Before integrating this data into our predictive models for wind energy producti
 2. For the prediction of power consumption, 2 models were chosen to capture complex capture complex, temporal and long-term relationships in time series time series: Random Forest and LSTM (Long Short-Term Memory).
 ### evaluation
 When evaluating different models, it is essential to use a variety of measures to ensure the quality of predictions and to compare them with each other. The results of MSE, RMSE and MAE results reflect the errors between predicted and actual values, where lower values indicate better predictions. The NMAE takes into account the scale of the data, enabling a fair comparison between different datasets. The R² quantifies the extent to which variations in the predicted variable can be explained by variations in the actual variable, with a value close to 1 indicating a quality prediction.
-![image](https://github.com/kehanantoineLIU/projet_OPT_mixenergy/assets/125217787/bff1d0c5-2dfc-4b68-bf29-ea9fb59bd0c5)
+![image](https://github.com/kehanantoineLIU/projet_OPT_mixenergy/assets/125217787/bff1d0c5-2dfc-4b68-bf29-ea9fb59bd0c5)   
+
 We can therefore see that Random Forest is the algorithm that best learns and best predicts wind energy production.
-![image](https://github.com/kehanantoineLIU/projet_OPT_mixenergy/assets/125217787/8290daab-7523-4f0c-b648-7737b75f36be)
+![image](https://github.com/kehanantoineLIU/projet_OPT_mixenergy/assets/125217787/8290daab-7523-4f0c-b648-7737b75f36be)   
+
 LSTM has better accuracy and performance in the case of electricity consumption prediction. of electricity consumption, which is why we have chosen this algorithm for the electricity consumption.
 
 ## applications
-![image](https://github.com/kehanantoineLIU/projet_OPT_mixenergy/assets/125217787/b67b9c71-9067-44ac-be2d-6e6d56275048)
+![image](https://github.com/kehanantoineLIU/projet_OPT_mixenergy/assets/125217787/b67b9c71-9067-44ac-be2d-6e6d56275048)   
 
-With the help of our two selected models, we made predictions for December 4, 2023 concerning electricity consumption and wind power generation in France. Once these two elements were found, we then calculated the other elements of the energy mix equation according to our assumptions
+
+With the help of our two selected models, we made predictions for December 4, 2023 concerning electricity consumption and wind power generation in France. Once these two elements were found, we then calculated the other elements of the energy mix equation according to our assumptions   
+
 ![image](https://github.com/kehanantoineLIU/projet_OPT_mixenergy/assets/125217787/6dc9ced2-fab1-44e6-8b19-3a6f02491402)
 
 
